@@ -186,35 +186,21 @@ nav img {
     height: 35px;
 }
 
-
-
-header {display: flex;flex-direction: column;gap: 35px;}
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
 
 .location {
     display: flex;
     align-items: center;
     height: 49px;
     width: 377px;
-    background-color: #F2F2F2;
-    border-bottom-left-radius
-Defines the radii of the bottom left outer border edge.
+    background-color: #f2f2f2;
 
-Widely available across major browsers (Baseline since January 2018)
-Learn more
-
-Don't show: 15px;
-    border-top-left-radius: 15px;';
-    border-bottom-left-radius
-Defines the radii of the bottom left outer border edge.
-
-Widely available across major browsers (Baseline since January 2018)
-Learn more
-
-Don't show: 15px;
-    border-top-left-radius: 15px;';
-    border-bottom-left-radius: 15;
-    border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 i.fa-solid.fa-location-dot {
@@ -229,7 +215,17 @@ input#location {
     height: 41px;
 }
 
-.location button {font-size: 18px;height: 49px;width: 132px;color: white;border-top-right-radius: 15px;border-bottom-right-radius: 15px;font-weight: 700;background-color: #0065FC;border: 1px #0065FC solid;}
+.location button {
+    font-size: 18px;
+    height: 49px;
+    width: 132px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 700;
+    background-color: #0065fc;
+    border: 1px #0065fc solid;
+}
 
 .filtre {
     display: flex;
@@ -237,10 +233,11 @@ input#location {
     gap: 15px;
 }
 
-.filtres p {}
+.filtres p {
+}
 
 .filtre button {
-    border: solid 2px #D9D9D9;
+    border: solid 2px #d9d9d9;
     padding: 4px 19px;
     border-radius: 25px;
     background-color: white;

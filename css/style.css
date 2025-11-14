@@ -217,7 +217,7 @@ i.fa-solid.fa-location-dot {
 input#location {
     border: none;
     width: 191px;
-    height: 41px;
+    height: 43px;
 }
 
 .location button {
@@ -241,7 +241,7 @@ input#location {
 
 .filtre button {
     display: flex;
-    border: solid 2px #d9d9d9;
+    border: solid 1px #d9d9d9;
     padding: 4px 19px;
     border-radius: 25px;
     background-color: white;
@@ -397,18 +397,33 @@ h3 {
         align-items: center;
     }
 
-    header{
-        padding:0 20px;
+    header {
+        padding: 0 20px;
     }
 
-    a{
+    a {
         padding-top: 0;
     }
     .nav-links {
         width: 100%;
-        justify-content: center;
+        padding-right: 0;
+
+        gap: 0;
+        justify-content: space-around;
+    }
+    .nav-links a {
         padding-bottom: 15px;
+        border-top: white solid 2px;
         border-bottom: var(--main-bg-color) solid 2px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .link-hebergements-and-populaires:hover,
+    .link-activity:hover {
+        border-top: white 2px solid;
+        color: #0065fc;
+        border-bottom: #0065fc 2px solid;
     }
 
     .main-container {
@@ -423,15 +438,14 @@ h3 {
         width: 100%;
     }
 
-    .hebergements-and-populaires{
+    .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
 
-    .hebergements-and-populaires section{
+    .hebergements-and-populaires section {
         border-radius: 0px;
         padding-left: 20px;
         padding-right: 20px;
-        
     }
     .hebergements-and-populaires section:nth-child(1) {
         background-color: white;
@@ -445,11 +459,11 @@ h3 {
         width: 100%;
     }
 
-    .populaires h2{
+    .populaires h2 {
         margin-top: 0;
         padding-bottom: 15px;
     }
-     .populaires {
+    .populaires {
         margin-top: 0;
     }
     .populaires-cards {
@@ -459,9 +473,8 @@ h3 {
 
     .populaires-cards .card {
         margin-top: 0;
-
     }
-    
+
     .populaires-cards a {
         width: 100%;
     }
@@ -477,27 +490,58 @@ h3 {
         border: 1px #0065fc solid;
     }
 
-    .location button{
+    .location button {
         width: 50px;
     }
     .search-button {
         display: none;
     }
-    .activity-cards{
+    .activity-cards {
         flex-direction: column;
     }
 
-    .activity-cards .card{
-        width:auto
+    .activity-cards .card {
+        width: auto;
     }
 
-    footer{
+    footer {
         flex-direction: column;
     }
 
-    .footer-box{
+    .footer-box {
         padding: 25px 30px;
     }
 
-    
+    section#activity {
+margin-top: 0;
+}
+
+    form{
+        width: 100%;
+    }
+
+    .location{
+        max-width: 100%;
+
+    }
+    input#location{
+        flex: 1;
+    }
+
+    .filtre{
+    }
+
+    .filtre button{
+        flex:1;
+        font-size: 0.99em;
+        height: 50px;
+    }
+
+    .filtre p{
+        margin: 0;
+    }
+
+    .information p{
+        margin: 0;
+    }
 }

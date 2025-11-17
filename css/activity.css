@@ -1,7 +1,6 @@
 /************* Activity *************/
 
 section#activity {
-    margin-top: 35px;
     margin-bottom: 35px;
     padding: 30px;
 }
@@ -12,21 +11,28 @@ section#activity {
     justify-content: space-between;
 }
 
-.activity-cards .card {
+.activity-cards a  {
     width: calc(25% - 30px);
+    height: 470px;
+    padding-top: 0;
+}
+
+.activity-cards a .card {
     display: flex;
     flex-direction: column;
     font-weight: 700;
     padding: 0;
+    height: 100%;
 }
 
-.activity-cards .card img {
+.activity-cards a .card img {
     height: 380px;
     border-radius: 20px 20px 0 0;
 }
 
-.activity-cards .card p {
-    margin-left: 10px;
+.activity-cards a .card h3 {
+    padding: 20px 19px;
+    font-size: 1em;
 }
 
 .activity h2 {

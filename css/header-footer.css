@@ -1,0 +1,122 @@
+/************* Header *************/
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    max-width: 377px;
+    background-color: var(--main-bg-color);
+    border-radius: 15px;
+}
+
+i.fa-solid.fa-location-dot {
+    width: 50px;
+    text-align: center;
+    color: black;
+}
+
+input#location {
+    border: none;
+    width: 191px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+input::placeholder {
+    color: black;
+    opacity: 1; /* For Firefox */
+}
+::-webkit-input-placeholder {
+    /* Chrome, Safari, Opera */
+    color: black;
+}
+::-ms-input-placeholder {
+    /* Edge */
+    color: black;
+}
+
+.location button {
+    font-size: 18px;
+    width: 132px;
+    height: 49px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 700;
+    background-color: #0065fc;
+    border: 1px #0065fc solid;
+}
+
+.filtre {
+    display: flex;
+    height: 50px;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.filtre button {
+    display: flex;
+    border: solid 1px #d9d9d9;
+    padding: 4px 19px;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 1.1em;
+    font-weight: 700;
+    align-items: center;
+    gap: 10px;
+}
+
+.filtre p {
+    font-size: 1.1em;
+    position: relative;
+    bottom: 4px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+i.fa-solid.fa-info {
+    border: 1px #d9d9d9 solid;
+    border-radius: 50%;
+    padding: 7px 12px;
+}
+
+.information p {
+    font-size: 1em;
+}
+
+.filtre button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.glass-button {
+    display: none;
+}
+
+.glass-button i {
+    color: white;
+}
+
+/*********************Footer *******************/
+
+footer {
+    display: flex;
+    background-color: var(--main-bg-color);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-box {
+    flex: 1;
+    padding: 20px;
+}

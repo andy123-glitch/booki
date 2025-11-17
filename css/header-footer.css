@@ -43,7 +43,6 @@ input::placeholder {
 
 .location button {
     font-size: 18px;
-    width: 132px;
     height: 49px;
     color: white;
     border-top-right-radius: 15px;
@@ -70,6 +69,7 @@ input::placeholder {
     font-weight: 700;
     align-items: center;
     gap: 10px;
+    justify-content: center;
 }
 
 .filtre p {

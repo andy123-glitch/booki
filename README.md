@@ -7,21 +7,6 @@ Ce projet met l’accent sur le **responsive design**, la **structure sémantiqu
 
 ---
 
-## 🚀 Recherche de stage
-
-Dans le cadre de ma formation en développement web, je suis à la recherche d’un **stage de fin de formation**.
-
-**Disponibilité :**  
-📆 Fin mars 2025 → mi-juin 2025  
-💻 Développement Web (Front-End / Full-Stack)  
-📍 Présentiel (France) ou télétravail 
-📧 Contact : andy.azerot@gmail.com
-
-Ce stage me permettra de consolider mes compétences techniques et de contribuer concrètement à des projets professionnels.
-
----
-
-
 ## 🧠 Compétences démontrées
 
 ✅ Intégration web responsive  

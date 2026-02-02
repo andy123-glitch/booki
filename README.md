@@ -9,10 +9,10 @@ Une maquette sur figma est fournis : [Maquette Figma](https://www.figma.com/file
 
 ---
 
-## Démo
-👉 https://andy123-glitch.github.io/booki/
+## 🎥 Démo
+Lien : https://andy123-glitch.github.io/booki/
 
-## Aperçu
+## 📷Apercu du site
 ![Aperçu du site](images/screenshot.png)
 
 ---
@@ -65,12 +65,20 @@ booki/
 
 ## 🎯 Points forts du projet
 
-- Intégration pixel-perfect
+- Intégration d'ne maquette
 - Code propre et lisible
 - Layout flexible et maintenable
 - Respect des standards du web
 - Projet léger et rapide à charger
 
+---
+
+## 📚 Ce que j’ai appris
+- Structurer une page HTML sémantique
+- Implémenter un layout responsive avec Flexbox
+- Respecter une maquette professionnelle
+- Organiser un projet front-end proprement
+  
 ---
 
 ## 🚀 Lancer le projet

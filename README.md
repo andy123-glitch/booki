@@ -5,6 +5,8 @@
 Booki est un projet **front-end** mettant en pratique mes compétences en **HTML** et **CSS**, réalisé à partir d’une maquette professionnelle.  
 Ce projet met l’accent sur le **responsive design**, la **structure sémantique** et la qualité de l’intégration.
 
+Une maquette sur figma est fournis : [Maquette Figma](https://www.figma.com/file/r9YJyUkpVdrxzBBKGH7reY/Maquettes-Booki-(desktop%2C-mobile%2C-tablette)?node-id=3%3A0&t=YL7QVHueotIL04nL-1)
+
 ---
 
 ## 🧠 Compétences démontrées

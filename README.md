@@ -9,6 +9,14 @@ Une maquette sur figma est fournis : [Maquette Figma](https://www.figma.com/file
 
 ---
 
+## Démo
+👉 https://andy123-glitch.github.io/booki/
+
+## Aperçu
+![Aperçu du site](images/screenshot.png)
+
+---
+
 ## 🧠 Compétences démontrées
 
 ✅ Intégration web responsive  
